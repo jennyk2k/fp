@@ -1,0 +1,132 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    /*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg1.JPG);*/
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    position:fixed;
+    height:100px;
+    padding:10px;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+header img {
+    width: 80px;
+}
+
+header ul {
+    float:right;
+    list-style: none;
+    color:rgb(252, 140, 80);
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+header li {
+    display: inline-block;
+    
+    margin-right:40px;
+    
+}
+header a {
+    text-decoration: none;
+    color:rgb(252, 140, 80);
+    border:rgb(252, 140, 80) solid 1px;
+    padding:15px;
+}
+header a:hover {
+    background-color: coral;
+    transition: 1s;
+    color:white;
+}
+main {
+    padding-top: 150px;
+}
+
+.MiddleContent {
+    font-size: 48px;
+    text-align: center;
+    padding-top:200px;
+}
+
+.MiddleContent button {
+    padding:20px;
+    margin: 20px;
+    font-size: 28px;
+    background-color: rgb(227, 135, 70);
+    border-radius: 50px;
+    border:none;
+    color:white;
+}
+
+.MiddleContent button:hover {
+    background-color: coral;
+    transition: 1s;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+main img {
+     border: solid rgb(199, 196, 38);
+    border-radius: 100px;
+    margin-right: 10px;
+    padding-right:20px;
+    padding-left:50px;
+    width: 300px;
+    background-color: rgb(199, 143, 38);
+}
+.click-me-button {
+    display:block;
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+.click-me-button:hover {
+    background-color: plum;
+    cursor:pointer;
+}
+.click-me-button:active {
+    color:red;
+}
+
+.box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 10%;
+
+}
+.one {
+    flex: 1;
+    background-color: blanchedalmond;
+    margin: 20px;
+    border-radius: 10px;
+}

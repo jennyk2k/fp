@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(242, 210, 172);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color:white;
+    background-position:bottom;
+    padding: 0px;
+    margin: 0px;
+}
+.listTitle
+{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: cursive;
+    color:brown;
+}
+img {
+    display:block;
+    border: solid rgb(199, 196, 38);
+    border-radius: 100px;
+    margin-right: 10px;
+    padding-right:20px;
+    padding-left:50px;
+    width: 300px;
+    background-color: rgb(199, 143, 38);
+}
+.click-me-button {
+    display:block;
+    text-decoration: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+.click-me-button:hover {
+    background-color: plum;
+    cursor:pointer;
+}
+.click-me-button:active {
+    color:red;
+}
+.dont-button {
+    background-color:chocolate;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 50px;
+    transition: box-shadow 1s;
+}
+.dont-button:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    background-color: white;
+    cursor:no-drop;
+}
+table {
+    border: solid 1px black;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    border: solid 1px black;
+}
+.highLightText {
+    font-weight: bold;
+}
+.underlineText {
+    text-decoration: underline;
+    font-style: italic;
+}
+header{
+    position:fixed;
+    background-color: rgb(249, 244, 244);
+    display:block;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+}
+header ul {
+    float:right;
+    list-style:none;
+    color:rgb(227, 100, 41);
+    margin-right:50px;
+}
+header li {
+    display: inline-block;
+    margin:15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: rgb(227, 100, 41) solid 2px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(244, 153, 111);
+}
+header a{
+    text-decoration: none;
+    color:white;
+    
+}
+#active{
+    background-color: white;
+    color:rgb(227, 100, 41);
+    font-weight: bold;
+}
+main {
+    margin-top: 120px;
+}
